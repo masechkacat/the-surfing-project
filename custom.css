@@ -1,0 +1,18 @@
+header {
+    background-color: #1f5957;
+    color: aliceblue;
+}
+
+/* Для больших экранов, например, колонок, задайте отступ между элементами */
+@media (min-width: 768px) {
+    .custom-margin {
+        margin-left: 20px; /* Подставьте нужное вам значение отступа */
+    }
+}
+
+/* Для маленьких экранов, например, когда элементы идут в столбик, снимите отступ */
+@media (max-width: 767px) {
+    .custom-margin {
+        margin-top: 20px;
+    }
+}
