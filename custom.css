@@ -16,3 +16,23 @@ header {
         margin-top: 20px;
     }
 }
+.top {
+    top: 25%;
+}
+/* Общие стили */
+.btn {
+    white-space: nowrap; /* Предотвращает перенос текста на новую строку */
+  }
+  
+  /* Медиа-запрос для уменьшения шрифта на узких экранах */
+  @media (max-width: 768px) {
+    .btn {
+      font-size: 14px; /* Уменьшенный размер шрифта для маленьких экранов */
+    }
+  }
+  .title {
+    text-align: center;
+    font-size: xxx-large;
+    padding: 2%;
+    font-family: sans-serif;
+  }
